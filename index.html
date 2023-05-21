@@ -7,9 +7,12 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+   
+    <script src="https://kit.fontawesome.com/6f94f69e77.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-success bg-success" id="menu">
+     
+       <nav class="navbar fixed-top navbar-expand-lg navbar-success bg-success" id="menu">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><img src="https://turismoantioquia.travel/wp-content/uploads/2021/09/Logo-Antioquia-es-magica.png" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,34 +21,35 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#noticias">A donde ir!!</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Qué Hacer
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="https://culturantioquia.gov.co/" target="_blank">Cultura</a></li>
+                  <li><a class="dropdown-item" href="https://elturismoencolombia.com/a-donde-ir/turismo-antioquia-colombia/gastronomia-antioquia-colombia/" target="_blank">Gastronomía</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="https://turismoantioquia.travel/experiencia/naturaleza/" target="_blank">Naturaleza</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="https://turismoantioquia.travel/tag/rutas/" target="_blank">Rutas</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fas fa-search" style="color: #ffffff;"></i></button>
             </form>
           </div>
         </div>
       </nav>
 
+   
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,6 +88,152 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <div class="card mb-3 g-2" style="max-width: 100%;" id="info">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://turismoantioquia.travel/wp-content/uploads/2023/04/Banner-web-1600x900-Rappel_Mesa-de-trabajo-1.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">¡Antioquia es Mágica, recórrela!</h5>
+              <p class="card-text">
+                Bienvenido a la plataforma oficial de turismo de Antioquia. Nuestra misión es que te enamores de cada uno de los 125 municipios y que los recorras.
+                
+                Para empezar, te presentamos 30 municipios mágicos que son imperdibles y que se destacan por su cultura, gastronomía, riqueza natural, arquitectura, historia y oferta de aventura.
+                
+                No busques afuera lo que ya tienes adentro. ¡Elige Antioquia!</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- novedades o noticias -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="noticias">
+        <h1 class="titulo">A donde ir!!</h1>
+        <div class="col">
+          <div class="card">
+            <img src="https://turismoantioquia.travel/wp-content/uploads/2023/04/Iglesia-Abejorral-Antioquia-es-Magica.-scaled-e1682093568833.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Abejorral</h5>
+              <p class="card-text">Asentado en un ramal de la Cordillera Central en la subregión Oriente de Antioquia, Abejorral en su arquitectura particular de ladera, reúne la tradición española y la herencia indígena, cuenta con uno de los centros urbanos más extensos declarados Bien de Interés Cultural del Ámbito Nacional.</p>
+              <a href="https://wa.me/3105188168" class="btn btn-success buy" target="_blank">Visitar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="https://turismoantioquia.travel/wp-content/uploads/2023/04/Guatape-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Guatapé</h5>
+              <p class="card-text">Como en los cuentos de García Márquez, Guatapé es realismo mágico, un “pueblo en la montaña con un pedazo de mar en el corazón”; está ubicado a 81 kilómetros de distancia y su nombre está relacionado con el recordado cacique Guatapé, que comandaba muchas de sus tierras.</p>
+              <a href="https://turismoantioquia.travel/guatape/" class="btn btn-success buy" target="_blank">Visitar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="https://turismoantioquia.travel/wp-content/uploads/2023/02/JEP1692-2-scaled.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Arboletes</h5>
+              <p class="card-text">El nombre de este municipio significa “tierra de árboles” y le fue dado porque el sitio era un bosque natural con árboles de gran altura.</p>
+              <a href="https://turismoantioquia.travel/arboletes/" class="btn btn-success buy" target="_blank">Visitar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- servicios -->
+      <div class="row row-cols-1 row-cols-md-1 g-4 p-5" id="rutas">
+        <h1 class="titulo">Rutas</h1>
+        <div class="col">
+          <div class="card">
+            <img src="https://turismoantioquia.travel/wp-content/uploads/2022/12/protada-rutas-turisticas-1-768x432.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Abejorral</h5>
+              <p class="card-text">Conoce las rutas turísticas para viajar por Antioquia, 4 rutas pensadas para que vivas experiencias mágicas. 
+
+                Descarga el catálogo de las experiencias de: Magdalena Medio, Oriente, Suroeste y Urabá.</p>
+              <a href="https://wa.me/3105188168" class="btn btn-success buy" target="_blank">Visitar</a>
+            </div>
+          </div>
+        </div>        
+      </div>
+
+      
+
+      <!-- footer con metodologia BEM-->
+      <footer id="page-footer">
+        
+        <div class="ftcontainer">
+          <div class="footer__menu">
+            <figure>
+              <img src="images/logo.png" alt="" class="footer__logo">
+            </figure>
+            <p class="ft-social-row">
+              <a href="https://wa.me/3105188168" class="ft-social" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://www.facebook.com/" class="ft-social" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="ft-social" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com/" class="ft-social" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </p>
+          </div>
+          <!-- horarios de atención al publico -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Horario</h4>
+            <span class="footer__info">
+              Lunes a Viernes: 8:00 am a 7:00pm | Sábados: 9:00 am a 5:00pm
+            </span>
+          </div>
+          <!-- mapa del sitio o enlaces -->
+          <div class="footer__menu">
+            <h4 class="footer__title">
+              Mapa del sitio
+            </h4>
+            <ul class="ft-link">
+              <li class="footer__link">
+                <a href="nosotros.html" target="_blank" class="ft-social">Nosotros</a>
+              </li>
+              <li class="footer__link">
+                <a href="https://elturismoencolombia.com/a-donde-ir/turismo-antioquia-colombia/gastronomia-antioquia-colombia/" target="_blank" class="ft-social">Gastronomía</a>
+              </li>
+              <li class="footer__link">
+                <a href="https://culturantioquia.gov.co/" target="_blank" class="ft-social">Cultura</a>
+              </li>
+            </ul>
+          </div>
+          <!-- contactos -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Contactos</h4>
+            <p class="footer__info">
+              <i class="fas fa-envelope"></i>
+              Email: aprendesoftware@poliandino.edu.co
+            </p>
+      
+            <p class="footer__info">
+              <i class="fas fa-phone"></i>
+              Teléfono: 6043112325
+            </p>
+      
+            <p class="footer__info">
+              <i class="fas fa-map-marker-alt"></i>
+              Dirección: Carrera 52 N 85-20
+            </p>
+          </div>
+        </div>
+      </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
